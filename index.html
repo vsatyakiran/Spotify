@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.png">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="brand"> <img src="logo.png" alt="#" >Spotify </li>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="songsList">
+            <h1># My PlayList</h1>
+
+            <div class="songitemcontainer">
+                <div class="songItems">
+                <img src="cover\1.jpg" alt="1">
+                <span>Nenu Nuvvantu</span>
+                <span class="songsplaylist"> <span class="timestamp">04:43</span> <i id="1" class="smallPlay fa-regular fa-circle-play"></i></span>
+                </div>
+            </div>
+            <br>
+            <div>
+                <div class="songItems">
+                <img src="cover\2.jpg" alt="1">
+                <span>Sanchaari</span>
+                <span class="songsplaylist"> <span class="timestamp">05:19</span> <i id="2" class="smallPlay fa-regular fa-circle-play"></i></span>
+                </div>
+            </div>
+            <br>
+            <div>
+                <div class="songItems">
+                <img src="cover\3.jpg" alt="1">
+                <span>Choodandi Saaru</span>
+                <span class="songsplaylist"> <span class="timestamp">04:33</span> <i id="3" class="smallPlay fa-regular fa-circle-play"></i></span>
+                </div>
+            </div>
+            <br>
+            <div>
+                <div class="songItems">
+                <img src="cover\4.jpg" alt="1">
+                <span class="songName">Pachandaname</span>
+                <span class="songsplaylist"> <span class="timestamp">04:51</span> <i id = "4" class="smallPlay fa-regular fa-circle-play"></i></span>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="songsBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="play" id="myprogress" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step" id = "previous"></i>
+            <i class="fa-regular fa-circle-play" id = "masterPlay"></i>
+            <i class="fa-solid fa-forward-step" id = "next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="#" id="gif">  <span id="songNote">Nenu Nuvvantu - Orange</span>
+        </div>
+    </div>
+
+</body>
+
+<script  src="script.js"></script>
+<script src="https://kit.fontawesome.com/ebb32d056f.js" crossorigin="anonymous"></script>
+
+</html>
